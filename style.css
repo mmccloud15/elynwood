@@ -1,0 +1,216 @@
+/*CSS*/
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: "Playfair", serif;
+    font-style: thin;
+    font-size: 80px;
+    color: #444444;
+    text-shadow: 1px 1px 2px #b9b9b9;
+}
+
+h2 {
+    font-family: "Playfair", serif;
+    font-style: italic;
+    font-size: 60px;
+    color: #6E6E6E;
+    text-shadow: 1px 1px 2px #b9b9b9;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-style: thin;
+    font-size: 20px;
+    color: #6E6E6E;
+}
+
+h4 {
+    font-family: "Playfair", serif;
+    font-size: 60px;
+    color: #6E6E6E;
+    text-shadow: 1px 1px 2px #b9b9b9;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-style: thin;
+}
+
+.row-content {
+    padding: 50px 0; 
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: rgb(156, 158, 167);
+    opacity: 90%;
+    padding-left: 20px;
+}
+
+footer {
+    padding-left: 20px;
+    background-color: rgb(156, 158, 167);
+    opacity: 90%;
+    position: bottom;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+}
+
+#booksBanner {
+    padding: 0px;
+    
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #444444;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: white;
+    text-shadow: 1px 1px 2px #b9b9b9;
+}
+
+.nav-link:hover{
+    color: #444444;
+}
+
+.modal-header {
+    background-color: rgb(156, 158, 167);
+    border: none;
+    font-family: "Playfair", serif;
+}
+
+.modal-content {
+    border: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.close {
+    border: none;
+    box-shadow: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+form {
+    font-family: "roboto";
+}
+
+#homeHeader {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+#homeContent {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div.container {
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#mailBtn {
+    border: none;
+    text-decoration: none;
+    
+}
+
+#mailBtn:hover {
+    color: #444444;
+}
+
+/**** Home ****/
+
+.home {
+    background-image: url("https://images.unsplash.com/photo-1470695112598-4f976b048d28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+}
+
+#homeTitle {
+    color: #444444;
+    opacity: 75%;
+}
+
+#homeSub {
+    color: #444444;
+}
+
+#homeSub2 {
+    color: #444444;
+    opacity: 75%;
+}
+
+#img1, #img2, #img3, #img4{
+    box-shadow: 5px 5px 10px #44444475;
+}
+
+/***** Page1 / Books *****/
+ 
+.page1 {
+    background-color: white;
+    height: 700px;
+    padding: 40px;
+    text-align: center;
+}
+ 
+.page1 .description {
+    margin: 30px 0 10px 0;
+}
+
+/*****Page 2 / About*****/
+ 
+.page2 {
+    background-image: url("/img/bantersnaps-wxkHg1Tegh4-unsplash.jpg");
+    height: 700px;
+    padding: 40px;
+}
+ 
+.page2-box-text {
+    padding-right: 30px;
+    text-align: left;
+}
+ 
+.page2-box-text h3 {
+    margin-top: 0;
+}
+ 
+.page2-box-text .medium-paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+.page2-box-text a:hover,
+.page2-box-text a:focus {
+    border: 0;
+}
+
+.medium-paragraph {
+    margin-left: 100px;
+}
+
+/*Page 3 / Contact*/
+
+.page3 {
+    padding: 20px;
+}
+ 
+#contactHead {
+    margin-left: 20px;
+}
